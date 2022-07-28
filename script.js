@@ -1,5 +1,5 @@
 function logar(){
-    const login= document.getElementById('login').value;
+    const login= document.getElementById('usuario').value;
     const senha= document.getElementById('senha').value;
 
     if(login== 'admin' && senha=='admin'){

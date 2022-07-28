@@ -10,16 +10,31 @@
 </head>
 
 <body>
-    <section>
-        <form>
-            <h2>Login</h2>
-            <input type="text" placeholder="Login" id="login">
-            <input type="password" placeholder="senha" id="senha">
-            <input type="submit" id="enviar" onclick="logar() ; return false">
-        </form>
+    <section class="container">
+        <div class="card">
+            <h1>Entrar</h1>
+
+            <div class="rotulo-flutuante">
+                <input type="text" placeholder=" " id="usuario">
+                <label for="usuario">Usuário</label>
+            </div>
+            <div class="rotulo-flutuante">
+                <input type="password" placeholder=" " id="senha">
+                <label for="usuario">Senha</label>
+            </div>
+
+            <div class="para-centralizar">
+                <button  onclick="logar() ; return false">Entrar</button>
+            </div>
+            <div class="para-centralizar">
+                <hr>
+            </div>
+
+            <p>Não tem uma conta? <a href=" ">cadastre-se</a> </p>
+        </div>
     </section>
     <script src="script.js"></script>
-
+    
 
 </body>
 
