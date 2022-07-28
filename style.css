@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   max-width: 700px;
+   margin: 0 auto;
+
+}
+section{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+    
+}
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+#enviar{
+    background-color: rgba(1, 27, 175, 0.397);
+}
